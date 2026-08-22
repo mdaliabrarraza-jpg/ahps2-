@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Asansol Hamdard Public School | AHPS</title>
+<meta name="description" content="Asansol Hamdard Public School official website">
+<style>
+:root{
+  --green:#063f32; --green2:#0b5947; --gold:#c9a13a; --cream:#f5efd9;
+  --ink:#10231e; --muted:#65736e; --white:#fff; --line:#ded6bd;
+  --shadow:0 18px 50px rgba(6,63,50,.12); --radius:22px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fbfaf4;line-height:1.6}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.12;margin:0 0 16px}
+p{margin:0 0 14px}.container{width:min(1160px,92%);margin:auto}
+.topbar{background:#022d25;color:#dfe9e5;font-size:13px;padding:8px 0}
+.topbar .container{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{position:sticky;top:0;z-index:20;background:rgba(6,63,50,.97);color:white;border-bottom:3px solid var(--gold)}
+.nav{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:white}
+.logo{width:60px;height:60px;border:2px solid var(--gold);clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);display:grid;place-items:center;font-weight:900;color:var(--gold)}
+.brand strong{font-family:Georgia,serif;font-size:22px;display:block}.brand small{color:#e5d59c;letter-spacing:3px}
+nav{display:flex;gap:20px;align-items:center}nav a{color:#fff;text-decoration:none;font-size:14px;font-weight:700}
+nav a:hover{color:#f0d27b}.menu{display:none;background:transparent;color:white;border:1px solid #769086;border-radius:10px;padding:10px 13px;font-size:24px}
+.hero{background:linear-gradient(120deg,#063f32 0%,#0b5947 60%,#124f43 100%);color:white;padding:92px 0 84px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.kicker{letter-spacing:4px;color:#e5cf83;font-weight:800;font-size:13px;margin-bottom:15px}
+.hero h1{font-size:clamp(44px,7vw,78px)}.hero p{font-size:19px;color:#d8e5df;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:13px 18px;font-weight:800;text-decoration:none;cursor:pointer}
+.btn-gold{background:var(--gold);color:#082f27}.btn-light{background:#fff;color:var(--green)}
+.hero-card{background:#f7f0d8;color:var(--ink);border-radius:28px;padding:28px;box-shadow:var(--shadow);transform:rotate(1deg)}
+.hero-card .seal{width:80px;height:80px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--green);font-weight:900;margin-bottom:20px}
+.hero-card h3{font-size:30px}.hero-card ul{padding-left:20px;margin:0}.hero-card li{margin:8px 0}
+section{padding:78px 0}.section-head{max-width:720px;margin-bottom:34px}.section-head .kicker{color:#a37e19}
+.section-head h2{font-size:clamp(34px,5vw,50px)}.muted{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:0 8px 28px rgba(0,0,0,.04)}
+.card h3{font-size:25px}.icon{font-size:30px;margin-bottom:10px}
+.stats{background:var(--cream);border-block:1px solid var(--line)}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat{text-align:center;padding:20px}.stat b{display:block;font:700 42px Georgia;color:var(--green)}.stat span{color:var(--muted);font-weight:700}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.list{display:grid;gap:12px}.list-item{background:white;border:1px solid var(--line);border-radius:16px;padding:17px 19px;display:flex;justify-content:space-between;gap:15px}.list-item b{font-family:Georgia,serif}
+.table-wrap{overflow:auto;background:white;border:1px solid var(--line);border-radius:18px}
+table{width:100%;border-collapse:collapse;min-width:620px}th,td{padding:15px 16px;border-bottom:1px solid #eee6cf;text-align:left}th{background:var(--green);color:white}tr:last-child td{border-bottom:0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery figure{margin:0;background:white;border-radius:18px;overflow:hidden;border:1px solid var(--line)}.gallery img{width:100%;height:220px;object-fit:cover;display:block}.gallery figcaption{padding:13px 15px;font-weight:700}
+.notice{display:grid;gap:12px}.notice article{background:#fff;border-left:5px solid var(--gold);border-radius:14px;padding:18px 20px;box-shadow:0 5px 20px rgba(0,0,0,.04)}.tag{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:1px;background:#eaf1ed;color:var(--green);padding:5px 8px;border-radius:99px;font-weight:900}
+.form{background:white;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}label{font-size:13px;font-weight:900;color:#53615c;text-transform:uppercase;letter-spacing:1px}input,select,textarea{width:100%;padding:13px 14px;border:1px solid #d7cfb8;border-radius:11px;background:#fffdf5;font:inherit;color:var(--ink)}textarea{min-height:130px;resize:vertical}
+.contact-box{background:var(--green);color:white;border-radius:24px;padding:30px}.contact-box a{color:#f2d77d}
+footer{background:#022d25;color:#d7e2de;padding:45px 0}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px}.footer-grid h3{color:white}.footer-bottom{border-top:1px solid #28574d;margin-top:30px;padding-top:20px;font-size:13px}
+.admin{background:#f1ead3}.admin-shell{display:grid;grid-template-columns:280px 1fr;gap:20px}.admin-nav{background:var(--green);color:white;border-radius:20px;padding:20px;height:max-content;position:sticky;top:110px}.admin-nav button{width:100%;text-align:left;border:0;background:transparent;color:white;padding:12px;border-radius:10px;cursor:pointer}.admin-nav button.active,.admin-nav button:hover{background:#174f42}.admin-panel{display:none}.admin-panel.active{display:block}.admin-card{background:white;border:1px solid var(--line);border-radius:20px;padding:25px}.admin-login{max-width:520px;margin:auto}
+.status{padding:12px 15px;border-radius:12px;margin-bottom:15px;font-weight:700}.status.ok{background:#e2f2e8;color:#12573f}.status.warn{background:#fff3d4;color:#805d00}.status.err{background:#fde6e4;color:#8a2d25}
+.hidden{display:none!important}.small{font-size:13px}
+@media(max-width:900px){nav{display:none}.menu{display:block}.hero-grid,.split,.footer-grid,.admin-shell{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.stats-grid{grid-template-columns:1fr 1fr}.admin-nav{position:static}.hero{padding-top:60px}}
+@media(max-width:600px){.cards,.gallery,.form-grid{grid-template-columns:1fr}.hero h1{font-size:47px}.brand strong{font-size:17px}.brand small{font-size:10px}.nav{min-height:78px}.hero-card{transform:none}.topbar .container{justify-content:center}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>Asansol • West Bengal</span><span>Admissions • Academics • School Information</span></div></div>
+<header>
+<div class="container nav">
+<a class="brand" href="#home"><div class="logo">AHPS</div><div><strong>Asansol Hamdard Public School</strong><small>ASANSOL · WEST BENGAL</small></div></a>
+<nav id="nav"><a href="#about">About</a><a href="#academics">Academics</a><a href="#syllabus">Syllabus</a><a href="#fees">Fees</a><a href="#gallery">Gallery</a><a href="#admission">Admission</a><a href="#contact">Contact</a><a href="#admin">Admin</a></nav>
+<button class="menu" onclick="toggleNav()">☰</button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="container hero-grid">
+<div><div class="kicker">ASANSOL HAMDARD PUBLIC SCHOOL</div><h1>Learning with purpose. Growing with confidence.</h1><p>A clean, modern school website for AHPS with academics, syllabus, fees, gallery, admission enquiries, notices and an administrator control panel.</p>
+<div class="actions"><a class="btn btn-gold" href="#admission">Apply / Enquire</a><a class="btn btn-light" href="#academics">Explore School</a></div></div>
+<div class="hero-card"><div class="seal">AHPS</div><h3>School Information</h3><ul><li>Academic programmes and syllabus</li><li>Fee information</li><li>Notices and announcements</li><li>Gallery and school updates</li><li>Admission enquiry form</li></ul></div>
+</div></section>
+
+<section class="stats"><div class="container stats-grid">
+<div class="stat"><b>01</b><span>School</span></div><div class="stat"><b>07+</b><span>Core Areas</span></div><div class="stat"><b>24/7</b><span>Online Enquiry</span></div><div class="stat"><b>100%</b><span>Responsive</span></div>
+</div></section>
+
+<section id="about"><div class="container split">
+<div class="section-head"><div class="kicker">ABOUT AHPS</div><h2>A welcoming digital front door for the school.</h2><p class="muted">Use this section for the school's official introduction, vision, mission and key information. The text can later be edited from the admin panel.</p></div>
+<div class="cards"><div class="card"><div class="icon">🎓</div><h3>Academic Focus</h3><p class="muted">Clear presentation of programmes, subjects and learning information.</p></div><div class="card"><div class="icon">🤝</div><h3>Community</h3><p class="muted">Keep parents and students informed with notices and updates.</p></div><div class="card"><div class="icon">📚</div><h3>Student Support</h3><p class="muted">Admission enquiry and contact information in one place.</p></div></div>
+</div></section>
+
+<section id="academics"><div class="container"><div class="section-head"><div class="kicker">ACADEMICS</div><h2>Programmes designed around learning.</h2><p class="muted">Sample content is included for testing. Replace it with the school's approved content later.</p></div>
+<div class="cards"><div class="card"><h3>Primary</h3><p>Foundational language, mathematics, environmental studies and computer basics.</p></div><div class="card"><h3>Middle</h3><p>Languages, mathematics, science, social studies and computer studies.</p></div><div class="card"><h3>Secondary</h3><p>Languages, mathematics, physical science, life science, history, geography and computer application.</p></div></div></div></section>
+
+<section id="syllabus"><div class="container"><div class="section-head"><div class="kicker">SYLLABUS</div><h2>Subjects at a glance.</h2></div><div class="table-wrap"><table><thead><tr><th>Level</th><th>Subjects</th></tr></thead><tbody id="syllabusBody"></tbody></table></div></div></section>
+
+<section id="fees"><div class="container"><div class="section-head"><div class="kicker">FEES</div><h2>Fee information.</h2><p class="muted">The current demo values are “Contact School”. Update official amounts from the admin panel after verification.</p></div><div class="table-wrap"><table><thead><tr><th>Fee Item</th><th>Primary</th><th>Middle</th><th>Secondary</th></tr></thead><tbody id="feesBody"></tbody></table></div></div></section>
+
+<section id="notices"><div class="container split"><div class="section-head"><div class="kicker">NOTICE BOARD</div><h2>Latest school updates.</h2></div><div class="notice" id="noticeList"></div></div></section>
+
+<section id="gallery"><div class="container"><div class="section-head"><div class="kicker">GALLERY</div><h2>School moments.</h2></div><div class="gallery" id="galleryList"></div></div></section>
+
+<section id="admission"><div class="container split"><div class="section-head"><div class="kicker">ADMISSION ENQUIRY</div><h2>Start the conversation with the school.</h2><p class="muted">Parents can submit an enquiry. With Supabase configured, submissions are saved in the admissions table for the administrator.</p></div>
+<form class="form" id="admissionForm"><div class="form-grid">
+<div class="field"><label>Student Name</label><input id="student" required></div><div class="field"><label>Class</label><input id="className" required></div>
+<div class="field"><label>Parent / Guardian</label><input id="parent" required></div><div class="field"><label>Phone</label><input id="phone" required></div>
+<div class="field full"><label>Message</label><textarea id="message" placeholder="Write your enquiry..."></textarea></div>
+<div class="field full"><button class="btn btn-gold" type="submit">Submit Admission Enquiry</button></div></div><div id="admissionStatus"></div></form></div></section>
+
+<section id="contact"><div class="container split"><div class="contact-box"><div class="kicker">CONTACT</div><h2>Asansol Hamdard Public School</h2><p id="contactAddress">Asansol Hamdard Public School, Asansol, West Bengal</p><p><b>Phone:</b> <a id="contactPhone" href="#">+91 98765 43210</a></p><p><b>Email:</b> <a id="contactEmail" href="#">info@ahps-asansol.com</a></p></div><div class="form"><div class="kicker">SEND A MESSAGE</div><h2>Have a question?</h2><form id="messageForm"><div class="field"><label>Name</label><input id="msgName" required></div><div class="field"><label>Phone / Email</label><input id="msgContact" required></div><div class="field"><label>Message</label><textarea id="msgText" required></textarea></div><button class="btn btn-gold" type="submit">Send Message</button><div id="messageStatus"></div></form></div></div></section>
+
+<section class="admin" id="admin"><div class="container"><div class="section-head"><div class="kicker">ADMIN CONTROL</div><h2>School Website Admin Panel</h2><p class="muted">Manage school content and view admission enquiries. Supabase is optional for this test build.</p></div>
+<div id="configNotice" class="status warn">Demo mode: enter your Supabase Project URL and anon public key below to enable cloud login and database features.</div>
+<div class="admin-card admin-login" id="loginCard"><h2>Admin Login</h2><div class="field"><label>Admin Email</label><input id="adminEmail" type="email" placeholder="your-admin-email@example.com"></div><div class="field" style="margin-top:12px"><label>Password</label><input id="adminPassword" type="password" placeholder="Password"></div><button class="btn btn-gold" style="width:100%;margin-top:18px" onclick="adminLogin()">Login to Control Panel</button><div id="loginStatus" style="margin-top:14px"></div><p class="small muted" style="margin-top:15px">For security, this page never contains a Supabase service-role key. Only the public anon key is used in the browser.</p></div>
+
+<div class="admin-shell hidden" id="adminShell">
+<aside class="admin-nav"><b>AHPS ADMIN</b><hr style="border-color:#28574d"><button class="active" onclick="showAdmin('dashboard',this)">Dashboard</button><button onclick="showAdmin('content',this)">Site Content</button><button onclick="showAdmin('admissions',this)">Admissions</button><button onclick="showAdmin('messages',this)">Messages</button><button onclick="showAdmin('galleryAdmin',this)">Gallery</button><button onclick="adminLogout()">Logout</button></aside>
+<div>
+<div class="admin-panel active" id="dashboard"><div class="admin-card"><h2>Dashboard</h2><p>Supabase connection is active. Use the menu to manage the website.</p><div id="dashboardStats" class="cards"></div></div></div>
+<div class="admin-panel" id="content"><div class="admin-card"><h2>Site Content JSON</h2><p class="muted">Edit the JSON and save it to <code>ahps_site_data</code>.</p><textarea id="siteJson" style="min-height:420px;font-family:monospace"></textarea><button class="btn btn-gold" onclick="saveSiteData()" style="margin-top:12px">Save Site Data</button><div id="contentStatus"></div></div></div>
+<div class="admin-panel" id="admissions"><div class="admin-card"><h2>Admission Enquiries</h2><div id="admissionTable">Loading...</div></div></div>
+<div class="admin-panel" id="messages"><div class="admin-card"><h2>Messages</h2><div id="messageTable">Loading...</div></div></div>
+<div class="admin-panel" id="galleryAdmin"><div class="admin-card"><h2>Gallery Storage</h2><p>Bucket: <b>Ahps</b></p><p class="muted">Upload/delete policies are included in the SQL setup. Gallery records can also be edited inside Site Content JSON.</p><input type="file" id="galleryFile" accept="image/*"><button class="btn btn-gold" onclick="uploadGallery()" style="margin-top:12px">Upload Image</button><div id="galleryStatus"></div></div></div>
+</div></div>
+</div></section>
+</main>
+
+<footer><div class="container footer-grid"><div><div class="brand"><div class="logo">AHPS</div><div><strong>Asansol Hamdard Public School</strong><small>ASANSOL · WEST BENGAL</small></div></div><p style="margin-top:18px">A responsive school website prototype connected to Supabase-ready data structures.</p></div><div><h3>Quick Links</h3><p><a href="#about" style="color:#d7e2de">About</a></p><p><a href="#admission" style="color:#d7e2de">Admission</a></p><p><a href="#gallery" style="color:#d7e2de">Gallery</a></p></div><div><h3>Contact</h3><p id="footerPhone">+91 98765 43210</p><p id="footerEmail">info@ahps-asansol.com</p></div></div><div class="container footer-bottom">© <span id="year"></span> Asansol Hamdard Public School. All rights reserved.</div></footer>
+
+<script>
+const DEFAULT_DATA={
+ ahpsFees:[
+  {item:"Admission / Registration",n:"Contact School",p:"Contact School",s:"Contact School"},
+  {item:"Monthly Tuition Fee",n:"Contact School",p:"Contact School",s:"Contact School"},
+  {item:"Annual Session Charges",n:"Contact School",p:"Contact School",s:"Contact School"}
+ ],
+ ahpsNotices:[
+  {date:"17 AUG 2026",title:"Admissions open for Academic Session 2026-27.",tag:"Admission"},
+  {date:"10 AUG 2026",title:"Parent-Teacher meeting schedule to be announced soon.",tag:"Notice"}
+ ],
+ ahpsFaculty:[
+  {name:"Principal Office",role:"School Leadership",desc:"Overall academic direction."},
+  {name:"Teaching Staff",role:"Faculty",desc:"Dedicated core subject educators."}
+ ],
+ ahpsGallery:[
+  {url:"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80",caption:"School Building"},
+  {url:"https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80",caption:"Classroom Learning"}
+ ],
+ ahpsSyllabus:{
+  primary:["Urdu","English","Hindi","Bengali","Mathematics","Environmental Studies","Computer Basics"],
+  middle:["Urdu Literature","English","Hindi / Bengali","Mathematics","Science","Social Studies","Computer Studies"],
+  secondary:["Languages","Mathematics","Physical Science","Life Science","History","Geography","Computer Application"]
+ },
+ ahpsInfo:{phone:"+91 98765 43210",email:"info@ahps-asansol.com",address:"Asansol Hamdard Public School, Asansol, West Bengal"}
+};
+
+// Public Supabase project URL and anon (public) key.
+// These are safe to expose in client-side code — access is controlled by
+// Row Level Security policies in Supabase, not by keeping this key secret.
+const SUPABASE_URL="https://xeyqfjyymgzmmafpvoev.supabase.co";
+const SUPABASE_ANON_KEY="sb_publishable_U0XntnRx5i0FBmmL3ee8XA_GozxG-Yx";
+
+let DATA=JSON.parse(localStorage.getItem("ahps_demo_data")||"null")||DEFAULT_DATA;
+let supabaseClient=null;
+
+function $(id){return document.getElementById(id)}
+function esc(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+function render(){
+ $("syllabusBody").innerHTML=Object.entries(DATA.ahpsSyllabus||{}).map(([k,v])=>`<tr><td><b>${esc(k)}</b></td><td>${esc((v||[]).join(", "))}</td></tr>`).join("");
+ $("feesBody").innerHTML=(DATA.ahpsFees||[]).map(x=>`<tr><td>${esc(x.item)}</td><td>${esc(x.n)}</td><td>${esc(x.p)}</td><td>${esc(x.s)}</td></tr>`).join("");
+ $("noticeList").innerHTML=(DATA.ahpsNotices||[]).map(x=>`<article><span class="tag">${esc(x.tag)}</span><div style="font-size:12px;color:#8b7a51;font-weight:800;margin:6px 0">${esc(x.date)}</div><b>${esc(x.title)}</b></article>`).join("");
+ $("galleryList").innerHTML=(DATA.ahpsGallery||[]).map(x=>`<figure><img src="${esc(x.url)}" alt="${esc(x.caption)}" loading="lazy"><figcaption>${esc(x.caption)}</figcaption></figure>`).join("");
+ const i=DATA.ahpsInfo||{};$("contactAddress").textContent=i.address||"";$("contactPhone").textContent=i.phone||"";$("contactPhone").href="tel:"+((i.phone||"").replace(/[^0-9+]/g,""));$("contactEmail").textContent=i.email||"";$("contactEmail").href="mailto:"+i.email;$("footerPhone").textContent=i.phone||"";$("footerEmail").textContent=i.email||"";
+ $("siteJson").value=JSON.stringify(DATA,null,2);
+ $("year").textContent=new Date().getFullYear();
+}
+function toggleNav(){const n=$("nav");n.style.display=n.style.display==="flex"?"none":"flex";n.style.flexDirection="column";n.style.position="absolute";n.style.right="4%";n.style.top="78px";n.style.background="#063f32";n.style.padding="16px";n.style.borderRadius="12px"}
+function showAdmin(id,btn){document.querySelectorAll(".admin-panel").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");document.querySelectorAll(".admin-nav button").forEach(x=>x.classList.remove("active"));if(btn)btn.classList.add("active")}
+function config(){
+ if(!SUPABASE_URL||!SUPABASE_ANON_KEY||SUPABASE_ANON_KEY==="PASTE_YOUR_ANON_PUBLIC_KEY_HERE")return null;
+ return {u:SUPABASE_URL.replace(/\/$/,""),k:SUPABASE_ANON_KEY};
+}
+async function loadSupabase(){
+ const c=config();if(!c)return null;
+ if(!window.supabase){await new Promise((resolve,reject)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2";s.onload=resolve;s.onerror=reject;document.head.appendChild(s)})}
+ supabaseClient=window.supabase.createClient(c.u,c.k);
+ return supabaseClient;
+}
+async function adminLogin(){
+ $("loginStatus").innerHTML='<div class="status warn">Connecting...</div>';
+ try{
+  const sb=await loadSupabase();if(!sb)throw new Error("Supabase anon public key is not configured in the script yet.");
+  const email=$("adminEmail").value.trim(),password=$("adminPassword").value;
+  if(!email||!password)throw new Error("Enter admin email and password.");
+  const {data,error}=await sb.auth.signInWithPassword({email,password});
+  if(error)throw error;
+  $("loginCard").classList.add("hidden");$("adminShell").classList.remove("hidden");$("configNotice").className="status ok";$("configNotice").textContent="Supabase connected successfully.";
+  $("loginStatus").innerHTML="";await refreshAdmin();
+ }catch(e){$("loginStatus").innerHTML='<div class="status err">'+esc(e.message||"Failed to connect")+"</div>";}
+}
+async function adminLogout(){if(supabaseClient)await supabaseClient.auth.signOut();$("adminShell").classList.add("hidden");$("loginCard").classList.remove("hidden")}
+async function refreshAdmin(){
+ try{
+  const {data:site}=await supabaseClient.from("ahps_site_data").select("data").eq("id",1).maybeSingle();
+  if(site?.data){DATA=site.data;render()}
+  const [a,m]=await Promise.all([
+   supabaseClient.from("ahps_admissions").select("*",{count:"exact",head:true}),
+   supabaseClient.from("ahps_messages").select("*",{count:"exact",head:true})
+  ]);
+  $("dashboardStats").innerHTML=`<div class="card"><h3>${a.count??0}</h3><p class="muted">Admissions</p></div><div class="card"><h3>${m.count??0}</h3><p class="muted">Messages</p></div><div class="card"><h3>${(DATA.ahpsGallery||[]).length}</h3><p class="muted">Gallery items</p></div>`;
+  loadAdmissions();loadMessages();
+ }catch(e){$("configNotice").className="status err";$("configNotice").textContent="Supabase connected, but a database request failed: "+e.message}
+}
+async function saveSiteData(){
+ try{
+  const obj=JSON.parse($("siteJson").value);const {error}=await supabaseClient.from("ahps_site_data").upsert({id:1,data:obj,updated_at:new Date().toISOString()});
+  if(error)throw error;DATA=obj;localStorage.setItem("ahps_demo_data",JSON.stringify(DATA));render();$("contentStatus").innerHTML='<div class="status ok">Saved successfully.</div>';
+ }catch(e){$("contentStatus").innerHTML='<div class="status err">'+esc(e.message)+"</div>"}
+}
+async function loadAdmissions(){
+ const box=$("admissionTable");const {data,error}=await supabaseClient.from("ahps_admissions").select("*").order("created_at",{ascending:false}).limit(100);
+ if(error){box.innerHTML='<div class="status err">'+esc(error.message)+"</div>";return}
+ box.innerHTML=data?.length?`<div class="table-wrap"><table><thead><tr><th>Student</th><th>Class</th><th>Parent</th><th>Phone</th><th>Message</th><th>Date</th></tr></thead><tbody>${data.map(x=>`<tr><td>${esc(x.student)}</td><td>${esc(x.class_name)}</td><td>${esc(x.parent_name)}</td><td>${esc(x.phone)}</td><td>${esc(x.message)}</td><td>${esc(new Date(x.created_at).toLocaleString())}</td></tr>`).join("")}</tbody></table></div>`:"<p>No enquiries yet.</p>";
+}
+async function loadMessages(){
+ const box=$("messageTable");const {data,error}=await supabaseClient.from("ahps_messages").select("*").order("created_at",{ascending:false}).limit(100);
+ if(error){box.innerHTML='<div class="status err">'+esc(error.message)+"</div>";return}
+ box.innerHTML=data?.length?`<div class="table-wrap"><table><thead><tr><th>Name</th><th>Contact</th><th>Message</th><th>Date</th></tr></thead><tbody>${data.map(x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.contact)}</td><td>${esc(x.message)}</td><td>${esc(new Date(x.created_at).toLocaleString())}</td></tr>`).join("")}</tbody></table></div>`:"<p>No messages yet.</p>";
+}
+async function submitAdmission(e){
+ e.preventDefault();const s=$("admissionStatus");s.innerHTML="";
+ const row={student:$("student").value.trim(),class_name:$("className").value.trim(),parent_name:$("parent").value.trim(),phone:$("phone").value.trim(),message:$("message").value.trim()};
+ try{
+  const c=config();if(c){const sb=await loadSupabase();const {error}=await sb.from("ahps_admissions").insert(row);if(error)throw error;s.innerHTML='<div class="status ok">Enquiry submitted successfully.</div>'}
+  else{const arr=JSON.parse(localStorage.getItem("ahps_demo_admissions")||"[]");arr.push({...row,created_at:new Date().toISOString()});localStorage.setItem("ahps_demo_admissions",JSON.stringify(arr));s.innerHTML='<div class="status ok">Demo enquiry saved on this device.</div>'}
+  $("admissionForm").reset();
+ }catch(e){s.innerHTML='<div class="status err">'+esc(e.message)+"</div>"}
+}
+async function submitMessage(e){
+ e.preventDefault();const s=$("messageStatus");s.innerHTML="";
+ const row={name:$("msgName").value.trim(),contact:$("msgContact").value.trim(),message:$("msgText").value.trim()};
+ try{
+  const c=config();if(c){const sb=await loadSupabase();const {error}=await sb.from("ahps_messages").insert(row);if(error)throw error;s.innerHTML='<div class="status ok">Message sent successfully.</div>'}
+  else{const arr=JSON.parse(localStorage.getItem("ahps_demo_messages")||"[]");arr.push({...row,created_at:new Date().toISOString()});localStorage.setItem("ahps_demo_messages",JSON.stringify(arr));s.innerHTML='<div class="status ok">Demo message saved on this device.</div>'}
+  $("messageForm").reset();
+ }catch(e){s.innerHTML='<div class="status err">'+esc(e.message)+"</div>"}
+}
+async function uploadGallery(){
+ const s=$("galleryStatus"),f=$("galleryFile").files[0];if(!f){s.innerHTML='<div class="status warn">Choose an image first.</div>';return}
+ try{
+  const path=`gallery/${Date.now()}-${f.name.replace(/[^a-zA-Z0-9._-]/g,"_")}`;
+  const {error}=await supabaseClient.storage.from("Ahps").upload(path,f,{upsert:false});if(error)throw error;
+  const {data}=supabaseClient.storage.from("Ahps").getPublicUrl(path);
+  DATA.ahpsGallery=DATA.ahpsGallery||[];DATA.ahpsGallery.push({url:data.publicUrl,caption:f.name});$("siteJson").value=JSON.stringify(DATA,null,2);render();
+  s.innerHTML='<div class="status ok">Uploaded. Click “Save Site Data” in Site Content to publish it to the gallery list.</div>';
+ }catch(e){s.innerHTML='<div class="status err">'+esc(e.message)+"</div>"}
+}
+async function loadPublicSiteData(){
+ try{
+  const c=config();if(!c){showLiveStatus("err","Supabase not configured (missing URL/key).");return}
+  const sb=await loadSupabase();if(!sb){showLiveStatus("err","Could not load Supabase library.");return}
+  const {data:site,error}=await sb.from("ahps_site_data").select("data").eq("id",1).maybeSingle();
+  if(error)throw error;
+  if(site?.data){DATA=site.data;render();showLiveStatus("ok","Live data loaded from Supabase.")}
+  else{showLiveStatus("warn","Connected, but no site data row found yet.")}
+ }catch(e){showLiveStatus("err","Failed to load live data: "+e.message);console.warn("Could not load live site data from Supabase, showing local/default content:",e.message)}
+}
+function showLiveStatus(kind,msg){
+ const el=document.createElement("div");
+ el.textContent="[SITE DATA STATUS] "+msg;
+ el.style.cssText="position:fixed;bottom:0;left:0;right:0;z-index:999;padding:10px 14px;font:700 12px monospace;color:#fff;background:"+(kind==="ok"?"#12573f":kind==="warn"?"#a37e19":"#8a2d25");
+ document.body.appendChild(el);
+}
+$("admissionForm").addEventListener("submit",submitAdmission);$("messageForm").addEventListener("submit",submitMessage);render();loadPublicSiteData();
+</script>
+</body>
+</html>
